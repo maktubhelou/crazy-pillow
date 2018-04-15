@@ -1,0 +1,180 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 0px;
+  border-color: #FECD90; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("images/joanna-nix-558203-unsplash.jpg");
+  background-size: cover;
+  min-height: 430px;
+  height: 50%;
+}
+
+header.startup hr {
+  margin-top: 150px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  color: #FECD90;
+  font-size: 4rem; 
+}
+
+header.startup h3 {
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #5592F9;
+  border-color: #4A79D8; }
+
+.btn-primary:hover {
+  background-color: #FECD90;
+  cursor: pointer;
+}
+
+.whitespace {
+  margin-top: 50px;
+  width: 90%;
+  line-height: 2em;
+}
+
+.whitespace h1 {
+  text-align: center;
+}
+
+.whitespace p {
+  margin-top: 25px;
+}
+
+.benefits {
+  margin-top: 100px;
+  padding: 100px;
+  width: 100%;
+  text-align: center;
+  background-image: url('images/pillows.jpg');
+  background-position: right;
+  background-position: cover;
+}
+
+.benefits ul {
+  margin-top: 55px;
+  padding: 0;
+}
+
+.benefits ul li {
+  background-color: rgba(255, 152, 0, 0.09);
+  list-style: none;
+  list-style-position: inside;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 2em;
+}
+
+.benefits ui,li:hover {
+  cursor: pointer;
+}
+
+.signup {
+  text-align: center;
+  height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  header.startup hr {
+  margin-top: 50px;
+  margin-bottom: 25px; 
+}
+}
+
+@media screen and (max-width: 485px) {
+  header.startup hr {
+  margin-top: 15px;
+  margin-bottom: 10px; 
+}
+  header.startup h3 {
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+  .benefits {
+    padding: 25px;
+  }
+}
+
+ /* Font Awesome Icons  */
+ .footer {
+  background-image: url('images/standingpillow.jpg');
+  background-size: cover;
+  background-opacity: 0.5;
+  background-color: #c4d8fc5c;
+  padding: 0px;
+  padding-top: 40px;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+ }
+
+ .fa-2x {
+    font-size: 1.5em;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa {
+    padding: 29px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa:hover {
+  cursor: pointer;
+}
+
+.opacity {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%; 
+  background-color: black;
+  z-index: 1;
+  opacity: 0.5;
+}
